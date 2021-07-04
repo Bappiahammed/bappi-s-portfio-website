@@ -7,6 +7,10 @@ body {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   margin: 0%;
+  padding-bottom: 100px;
+}
+p {
+  font-weight: 400;
 }
 span {
   color: orange;
@@ -34,6 +38,7 @@ a {
   background-position: right;
   background-repeat: no-repeat;
   margin: 0%;
+  padding-bottom: 100px;
 }
 .frist-section3 {
   display: flex;
@@ -43,9 +48,30 @@ a {
   margin: 0%;
 }
 h2 {
+  font-size: 40px;
+}
+h3 {
   color: orange;
 }
 
-.box1 {
+.Experiences-item {
   width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px rgb(37, 170, 223);
+  padding-left: 20px;
+  border-radius: 20px;
+}
+#web-developer {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#Full-stack-developer {
+  border-left: 10px solid;
+  border-image: linear-gradient(orange, red);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
 }
