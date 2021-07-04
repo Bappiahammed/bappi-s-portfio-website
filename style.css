@@ -1,3 +1,51 @@
-body{
-  font-family:font-family: 'Poppins', sans-serif; ;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+}
+.frist-section {
+  display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  margin: 0%;
+}
+span {
+  color: orange;
+}
+h1 {
+  font-size: 50px;
+}
+a {
+  background-image: linear-gradient(tomato, orange);
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+}
+.half-width {
+  width: 100%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.frist-section1 {
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0%;
+}
+.frist-section3 {
+  display: flex;
+  background-image: url(images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  margin: 0%;
+}
+h2 {
+  color: orange;
+}
+
+.box1 {
+  width: 40%;
 }
